@@ -1,0 +1,12 @@
+C:\Educativo\SegEducativo.App\SegEducativo.App.Persistencia\obj\Debug\netstandard2.1\SegEducativo.App.Persistencia.csprojAssemblyReference.cache
+C:\Educativo\SegEducativo.App\SegEducativo.App.Persistencia\obj\Debug\netstandard2.1\SegEducativo.App.Persistencia.AssemblyInfoInputs.cache
+C:\Educativo\SegEducativo.App\SegEducativo.App.Persistencia\obj\Debug\netstandard2.1\SegEducativo.App.Persistencia.AssemblyInfo.cs
+C:\Educativo\SegEducativo.App\SegEducativo.App.Persistencia\obj\Debug\netstandard2.1\SegEducativo.App.Persistencia.csproj.CoreCompileInputs.cache
+C:\Educativo\SegEducativo.App\SegEducativo.App.Persistencia\bin\Debug\netstandard2.1\SegEducativo.App.Persistencia.deps.json
+C:\Educativo\SegEducativo.App\SegEducativo.App.Persistencia\bin\Debug\netstandard2.1\SegEducativo.App.Persistencia.dll
+C:\Educativo\SegEducativo.App\SegEducativo.App.Persistencia\bin\Debug\netstandard2.1\SegEducativo.App.Persistencia.pdb
+C:\Educativo\SegEducativo.App\SegEducativo.App.Persistencia\bin\Debug\netstandard2.1\SegEducativo.App.Dominio.dll
+C:\Educativo\SegEducativo.App\SegEducativo.App.Persistencia\bin\Debug\netstandard2.1\SegEducativo.App.Dominio.pdb
+C:\Educativo\SegEducativo.App\SegEducativo.App.Persistencia\obj\Debug\netstandard2.1\SegEducativo.App.Persistencia.csproj.CopyComplete
+C:\Educativo\SegEducativo.App\SegEducativo.App.Persistencia\obj\Debug\netstandard2.1\SegEducativo.App.Persistencia.dll
+C:\Educativo\SegEducativo.App\SegEducativo.App.Persistencia\obj\Debug\netstandard2.1\SegEducativo.App.Persistencia.pdb
