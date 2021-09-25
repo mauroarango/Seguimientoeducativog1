@@ -7,6 +7,7 @@ namespace SegEducativo.App.Dominio
 
         public Materia Materia { get; set; }
 
-        public Estudiante Estudiante { get; set; }
+    
     }
 }
+
