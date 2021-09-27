@@ -133,9 +133,6 @@ namespace SegEducativo.App.Persistencia.Migrations
                     b.Property<int?>("MateriaId")
                         .HasColumnType("int");
 
-                    b.Property<int?>("ProfesorId")
-                        .HasColumnType("int");
-
                     b.HasIndex("AcudienteId");
 
                     b.HasIndex("DirectorGrupoId");
@@ -144,14 +141,15 @@ namespace SegEducativo.App.Persistencia.Migrations
 
                     b.HasIndex("MateriaId");
 
-                    b.HasIndex("ProfesorId");
-
                     b.HasDiscriminator().HasValue("Estudiante");
                 });
 
             modelBuilder.Entity("SegEducativo.App.Dominio.Profesor", b =>
                 {
                     b.HasBaseType("SegEducativo.App.Dominio.Persona");
+
+                    b.Property<int?>("EstudianteId")
+                        .HasColumnType("int");
 
                     b.Property<int?>("GrupoId")
                         .HasColumnType("int")
@@ -160,6 +158,8 @@ namespace SegEducativo.App.Persistencia.Migrations
                     b.Property<int?>("MateriaId")
                         .HasColumnType("int")
                         .HasColumnName("Profesor_MateriaId");
+
+                    b.HasIndex("EstudianteId");
 
                     b.HasIndex("GrupoId");
 
@@ -195,10 +195,6 @@ namespace SegEducativo.App.Persistencia.Migrations
                         .WithMany()
                         .HasForeignKey("MateriaId");
 
-                    b.HasOne("SegEducativo.App.Dominio.Profesor", "Profesor")
-                        .WithMany()
-                        .HasForeignKey("ProfesorId");
-
                     b.Navigation("Acudiente");
 
                     b.Navigation("DirectorGrupo");
@@ -206,12 +202,14 @@ namespace SegEducativo.App.Persistencia.Migrations
                     b.Navigation("Grupo");
 
                     b.Navigation("Materia");
-
-                    b.Navigation("Profesor");
                 });
 
             modelBuilder.Entity("SegEducativo.App.Dominio.Profesor", b =>
                 {
+                    b.HasOne("SegEducativo.App.Dominio.Estudiante", "Estudiante")
+                        .WithMany()
+                        .HasForeignKey("EstudianteId");
+
                     b.HasOne("SegEducativo.App.Dominio.Grupo", "Grupo")
                         .WithMany()
                         .HasForeignKey("GrupoId");
@@ -219,6 +217,8 @@ namespace SegEducativo.App.Persistencia.Migrations
                     b.HasOne("SegEducativo.App.Dominio.Materia", "Materia")
                         .WithMany()
                         .HasForeignKey("MateriaId");
+
+                    b.Navigation("Estudiante");
 
                     b.Navigation("Grupo");
 

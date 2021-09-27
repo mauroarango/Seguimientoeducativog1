@@ -1,0 +1,12 @@
+C:\Educativo\SegEducativo.App\SegEducativo.App.Dominio\bin\Debug\net5.0\SegEducativo.App.Dominio.deps.json
+C:\Educativo\SegEducativo.App\SegEducativo.App.Dominio\bin\Debug\net5.0\SegEducativo.App.Dominio.dll
+C:\Educativo\SegEducativo.App\SegEducativo.App.Dominio\bin\Debug\net5.0\ref\SegEducativo.App.Dominio.dll
+C:\Educativo\SegEducativo.App\SegEducativo.App.Dominio\bin\Debug\net5.0\SegEducativo.App.Dominio.pdb
+C:\Educativo\SegEducativo.App\SegEducativo.App.Dominio\obj\Debug\net5.0\SegEducativo.App.Dominio.csproj.AssemblyReference.cache
+C:\Educativo\SegEducativo.App\SegEducativo.App.Dominio\obj\Debug\net5.0\SegEducativo.App.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Educativo\SegEducativo.App\SegEducativo.App.Dominio\obj\Debug\net5.0\SegEducativo.App.Dominio.AssemblyInfoInputs.cache
+C:\Educativo\SegEducativo.App\SegEducativo.App.Dominio\obj\Debug\net5.0\SegEducativo.App.Dominio.AssemblyInfo.cs
+C:\Educativo\SegEducativo.App\SegEducativo.App.Dominio\obj\Debug\net5.0\SegEducativo.App.Dominio.csproj.CoreCompileInputs.cache
+C:\Educativo\SegEducativo.App\SegEducativo.App.Dominio\obj\Debug\net5.0\SegEducativo.App.Dominio.dll
+C:\Educativo\SegEducativo.App\SegEducativo.App.Dominio\obj\Debug\net5.0\ref\SegEducativo.App.Dominio.dll
+C:\Educativo\SegEducativo.App\SegEducativo.App.Dominio\obj\Debug\net5.0\SegEducativo.App.Dominio.pdb

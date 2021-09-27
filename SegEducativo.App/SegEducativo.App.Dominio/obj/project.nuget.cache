@@ -1,11 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7lqvaJ+jI7AcmaVwXJxS4ODSnvLIJQdh5cS6PAbJvoKhE+A8afWZt/LG6y23VMEO8XlnXrJOHorD7pUqyC3lhQ==",
+  "dgSpecHash": "nWkJmHXCVJn6YxFMRV4iEZtk5KDDTffvLZTQgBdYUicNZhDD6Uc0V3K4idEsedASq/+C1X/qG+NDH2aNNT1lfA==",
   "success": true,
   "projectFilePath": "C:\\Educativo\\SegEducativo.App\\SegEducativo.App.Dominio\\SegEducativo.App.Dominio.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\USUARIO\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\USUARIO\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }
