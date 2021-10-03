@@ -66,3 +66,4 @@ namespace SegEducativo.App.Persistencia
         }
     }
 }
+//luz este es un comentario de prueba para revisar gihub
