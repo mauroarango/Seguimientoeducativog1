@@ -28,7 +28,7 @@ public class RepositorioAcudiente : IRepositorioAcudiente
 
         void IRepositorioAcudiente.DeleteAcudiente(int IdAcudiente)
         {
-          var acudientencontrado=_appContext.Acudiente.FirstOrDefault(e =>e.Id==IdAcudiente);
+          var acudientencontrado=_appContext.Acudiente.FirstOrDefault(a =>a.Id==IdAcudiente);
          if (acudientencontrado==null)
          return;  _appContext.Acudiente.Remove(acudientencontrado);
          _appContext.SaveChanges();

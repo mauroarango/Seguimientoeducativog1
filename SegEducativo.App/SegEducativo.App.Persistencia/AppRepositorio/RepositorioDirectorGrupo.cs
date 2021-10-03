@@ -28,7 +28,7 @@ public class RepositorioDirectorGrupo : IRepositorioDirectorGrupo
 
         void IRepositorioDirectorGrupo.DeleteDirector(int Iddirector)
         {
-            var directorencontrado=_appContext.Director.FirstOrDefault(e =>e.Id==Iddirector);
+            var directorencontrado=_appContext.Director.FirstOrDefault(d =>d.Id==Iddirector);
          if (directorencontrado==null)
          return;  _appContext.Director.Remove(directorencontrado);
          _appContext.SaveChanges();
@@ -41,13 +41,13 @@ public class RepositorioDirectorGrupo : IRepositorioDirectorGrupo
 
         DirectorGrupo IRepositorioDirectorGrupo.GetDirector(int Iddirector)
         {
-             var directorencontrado=_appContext.Director.FirstOrDefault(a =>a.Id==Iddirector);
+             var directorencontrado=_appContext.Director.FirstOrDefault(d =>d.Id==Iddirector);
            return directorencontrado;
         }
 
         DirectorGrupo IRepositorioDirectorGrupo.UpdateDirector(DirectorGrupo director)
         {
-             var directorencontrado=_appContext.Director.FirstOrDefault(a =>a.Id==director.Id);
+             var directorencontrado=_appContext.Director.FirstOrDefault(d =>d.Id==director.Id);
          if (directorencontrado==null)
          {
              directorencontrado.Nombre=director.Nombre;
