@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "A7558nl7lbH+qnviBVNyD1bfWoMaudiV+HUtNdvrxOzKgvP55xKdVb69UYGukrN1WL/dJcBp3EtvXm1uBCoDEA==",
+  "dgSpecHash": "plZzA9X6UrbXJRTH2v/2Cq1s9iF3BKkyn9rXSJXgTNIza6r7Zhkx3MoeMLkQuGrEADPFZZ1nMjXwWYme3wQBlw==",
   "success": true,
-  "projectFilePath": "C:\\Educativo\\SegEducativo.App\\Segeducativo.App.Persistencia\\SegEducativo.App.Persistencia.csproj",
+  "projectFilePath": "C:\\Educativo\\SegEducativo.App\\SegEducativo.App.Persistencia\\SegEducativo.App.Persistencia.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\USUARIO\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\USUARIO\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

@@ -14,6 +14,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Segeducativo.App.Persistencia\SegEducativo.App.Persistencia.csproj" />
+    <ProjectReference Include="..\SegEducativo.App.Dominio\SegEducativo.App.Dominio.csproj" />
   </ItemGroup>
 
 </Project>
